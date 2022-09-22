@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--Frame레이아웃은 ==액자형 모든 뷰나 위젯이
+    동일한 위치에서 겹쳐질수 있음.
+
+    btn이라는 id를 가진 버튼을 클릭했을때
+    로그에 버튼이 클릭 되었습니다가 출력 될수 있게
+    MainActivity 수정
+
+    -->
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="이미지 살리기"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="이미지 없애기"
+        android:textSize="20dp"
+        />
+    </LinearLayout>
+
+    <FrameLayout
+       android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img1"/>
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img2"/>
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img3"/>
+
+        <ImageView
+            android:id="@+id/pic4"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img4"/>
+
+    </FrameLayout>
+
+</LinearLayout>

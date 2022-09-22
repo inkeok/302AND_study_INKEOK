@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <!--스크롤뷰 2개 존재함xml
+        자바코드에서 찾아서 사용할수 있게 해보기
+        (변수식 초기화)-->
+
+
+        <HorizontalScrollView
+            android:id="@+id/hsc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/sc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <Button
+                            android:layout_weight="1"
+                            android:id="@+id/btn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="#8E8787"
+                            android:text="Button"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="1500dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+                            android:text="주세영"
+                            android:textSize="25dp" />
+                </LinearLayout>
+
+
+        </ScrollView>
+
+        </HorizontalScrollView>
+</LinearLayout>
