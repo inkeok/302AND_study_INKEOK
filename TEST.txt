@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 임승진
+=======
+AAAAAAAAAAAAAAAAAAAAAAAAAAA
+>>>>>>> human1
 =======
 주세영
 >>>>>>> human2
