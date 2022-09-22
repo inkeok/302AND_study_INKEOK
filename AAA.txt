@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 DDDDDDDDDDDDDDDDDD
+=======
+AAAAAAAAAAAAAAAAAAAA
+>>>>>>> human1
