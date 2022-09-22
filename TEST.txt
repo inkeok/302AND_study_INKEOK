@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 AAAAAAAAAAAAAAAAAAAAAAAAAAA
+=======
+주세영
+>>>>>>> human2
