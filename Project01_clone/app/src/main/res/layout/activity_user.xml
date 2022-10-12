@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".friend.UserActivity"
+    android:background="#69B6AF">
+
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textColor="#ddd"
+        android:textSize="30dp"
+        android:layout_margin="30dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_gravity="center"
+            android:id="@+id/R_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/img1"/>
+        <TextView
+            android:id="@+id/R_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김강윤"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/R_stateMess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김강윤"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

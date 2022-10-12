@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ViewFragment"
+    android:orientation="vertical">
+
+
+    <!--fixed: 고정으로 된 크기
+    auto : 자동으로 크기 제어
+    scroller : 크기가 너무크면 스스로 생겨서 안잘리게함.-->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable"
+        app:tabTextColor="#1CA194"
+        app:tabSelectedTextColor="#084F87"
+        app:tabIndicator="@color/black"
+        app:tabIndicatorHeight="2dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recv_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".friend.InfriendFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="친구"
+        android:textStyle="bold"/>
+        <ImageView
+            android:layout_toLeftOf="@id/friend_plus"
+            android:id="@+id/friend_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/friend_seatch"
+          />
+        <ImageView
+            android:layout_toLeftOf="@id/friend_music"
+            android:id="@+id/friend_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/friend_plus"
+            />
+        <ImageView
+            android:layout_toLeftOf="@id/friend_setting"
+            android:id="@+id/friend_music"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/friend_music"
+            />
+        <ImageView
+            android:id="@+id/friend_setting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/friend_setting"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_psj"/>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최인혁"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기분좋은 하루★☆"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music: 볼빵간 사춘기 ♬♬"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ACABAB"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="생일인친구"
+            />
+        <LinearLayout
+            android:layout_margin="10dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img"
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_kky"/>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="김강윤"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/statemess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="※"
+                    android:textSize="10dp"/>
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ACABAB"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="친구 4"
+        android:layout_marginTop="10dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recv_friend"
+
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
+
+</LinearLayout>

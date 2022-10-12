@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intalk.InTalkFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:src="@drawable/banner" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8C8A8A"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="엄마 수학이 개 재미있어요!"
+        android:layout_margin="10dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recv_intalk"
+        android:background="#C6EFEB"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

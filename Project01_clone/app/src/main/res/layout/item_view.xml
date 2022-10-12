@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#DFDFDF"
+    >
+
+    <LinearLayout
+
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/v_img_title"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img4" />
+
+    <TextView
+        android:id="@+id/v_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/v_img_title"
+        android:text="승진데일리"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_toLeftOf="@+id/v_ddd"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ickakao_person_plus"
+        android:layout_centerVertical="true"
+       />
+    <ImageView
+        android:id="@+id/v_ddd"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_baseline_more_vert_24"/>
+</RelativeLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555454"/>
+    <TextView
+        android:id="@+id/v_tv_title_main"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="진짜 승진은 술마실 때 츄리닝을 입지"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/v_tv_title_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="#승진이는 편한게 좋아"   />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555454"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/v_img_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_lsj"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ㄹㅇㅋㅋ"/>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555454"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_cloud_upload_24"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공유하기"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_favorite_border_24"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="좋아요"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
