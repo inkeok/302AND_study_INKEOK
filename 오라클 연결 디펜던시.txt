@@ -1,0 +1,21 @@
+DATABASE 연결하기
+
+-JDBC  // MAVEN 디펜던시.
+-WEB MVC
+-DBCP 
+-Ojdbc10
+-mybatis
+-mybatis spring
+
+-src/main/resources에
+db패키지 만들고  properties 확장자 파일 만들기
+oracle.driver = oracle.jdbc.driver.OracleDriver
+oracle.url = jdbc:oracle:thin:@localhost:1521
+hanul.username = hanul   << 이름 설정!
+hanul.password = 0000
+
+dbconn 패키지에 만들고
+sqlmap 패키지 만들고
+
+WEB-INF root-context 에서 적고
+
