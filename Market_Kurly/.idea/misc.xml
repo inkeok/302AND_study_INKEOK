@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable-v24/btm_nav_item_select.xml" value="0.38229166666666664" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/border_cart.xml" value="0.38229166666666664" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/border_member.xml" value="0.22083333333333333" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/border_member_grade.xml" value="0.22083333333333333" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/border_search_empty.xml" value="0.3416666666666667" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/border_search_purple.xml" value="0.3416666666666667" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/broder_search_edit.xml" value="0.3416666666666667" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/btm_nav_home.xml" value="0.38229166666666664" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/btm_nav_item_select.xml" value="0.38229166666666664" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/drawable/btm_nav_menu.xml" value="0.38229166666666664" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/activity_cart.xml" value="0.33" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/activity_item_menu_small.xml" value="0.36614583333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/activity_splash.xml" value="0.28532608695652173" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_cart.xml" value="0.2046875" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_cart_add.xml" value="0.321875" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_fru_menu.xml" value="0.19642857142857142" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_home_al.xml" value="0.2875" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_home_best.xml" value="0.13177083333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_home_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_home_new.xml" value="0.2884012539184953" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_home_pop.xml" value="0.284375" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_location_sheet.xml" value="0.3177083333333333" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_main_menu.xml" value="0.284375" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_meat_menu.xml" value="0.284375" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_milk_menu.xml" value="0.284375" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_person_.xml" value="0.36614583333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_person_login_.xml" value="0.33" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_sea_menu.xml" value="0.284375" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/fragment_vege_menu.xml" value="0.284375" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/item_cart.xml" value="0.36614583333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/item_grid_new.xml" value="0.35052083333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/item_home_banner.xml" value="0.23333333333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/item_menu_small_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/layout/rounded_dialog.xml" value="0.303125" />
+        <entry key="..\:/study_android/workspace/Market_Kurly/app/src/main/res/menu/btn_menu.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

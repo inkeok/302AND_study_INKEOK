@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home.HomeFragment"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:tabTextColor="#8E8D8D"
+        app:tabSelectedTextColor="@color/kurly"
+        app:tabIndicatorColor="#44095A"
+        app:tabIndicatorHeight="2dp"
+
+        >
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabs_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="컬리추천"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabs_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="신상품"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabs_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="베스트"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabs_al"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알뜰쇼핑"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabs_best"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="특가/혜택"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <LinearLayout
+        android:id="@+id/frag_home_main"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomeNewFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/home_new_temp_img"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fru_12_menu" />
+        <RelativeLayout
+            android:id="@+id/home_new_relative"
+            android:layout_below="@id/home_new_temp_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="총 734개"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/home_new_filter_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/home_new_filter"
+                android:text="필터"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/home_new_filter"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/home_new_filter"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/grid_menu_fru"
+            android:layout_width="match_parent"
+            android:layout_height="1800dp"
+            android:layout_below="@+id/home_new_relative"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:verticalSpacing="30dp" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

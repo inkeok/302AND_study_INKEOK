@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/cart_list_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="[홍대쭈꾸미] 쭈꾸미 볶음 300g(냉동)\n[홍대쭈꾸미] 쭈꾸미 볶음 300g(냉동)" />
+
+        <ImageView
+            android:id="@+id/cart_delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/list_clear" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+        <ImageView
+            android:id="@+id/cart_list_pic"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/al_01"/>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/cart_list_realPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10,000"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="원"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/cart_list_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10,000"
+                android:textStyle="bold"
+                android:textSize="12dp"/>
+            <TextView
+                android:id="@+id/cart_list_pricePer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="원"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/menu_view_gray"/>
+
+</LinearLayout>
